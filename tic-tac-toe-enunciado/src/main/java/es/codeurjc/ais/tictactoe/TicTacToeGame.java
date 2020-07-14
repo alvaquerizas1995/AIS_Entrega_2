@@ -11,7 +11,7 @@ public class TicTacToeGame {
 	}
 
 	public static class Cell {
-		public volatile boolean active = false;
+		volatile boolean active = false;
 		public volatile String value;
 	}
 
